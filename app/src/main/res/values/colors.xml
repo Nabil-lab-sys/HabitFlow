@@ -1,0 +1,38 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Legacy Material names kept so existing theme references still resolve -->
+    <color name="purple_200">#FF93C5FD</color>
+    <color name="purple_500">#FF2563EB</color>
+    <color name="purple_700">#FF1D4ED8</color>
+    <color name="teal_200">#FF2DD4BF</color>
+    <color name="teal_700">#FF0F766E</color>
+
+    <!-- Gunmetal + steel-blue palette -->
+    <color name="background">#FF0F1318</color>
+    <color name="card_bg">#FF1A1F26</color>
+    <color name="card_bg_alt">#FF212832</color>
+    <color name="title_color">#FFF2F5F9</color>
+    <color name="accent">#FF3B82F6</color>
+    <color name="accent2">#FF22C55E</color>
+    <color name="accent3">#FF22C55E</color>
+    <color name="accent4">#FFF59E0B</color>
+    <color name="input_bg">#FF171C23</color>
+    <color name="border">#FF2E3742</color>
+    <color name="tab_color">#FF8A94A3</color>
+    <color name="tab_bar">#FF14181E</color>
+    <color name="text_primary">#FFE6EBF2</color>
+    <color name="text_secondary">#FF9AA4B2</color>
+    <color name="text_hint">#FF7F8896</color>
+    <color name="icon_muted">#FF8A94A3</color>
+    <color name="danger">#FFEF4444</color>
+
+    <!-- Pomodoro timer screen -->
+    <color name="timer_bg">#FF0F1318</color>
+    <color name="timer_track">#FF22C55E</color>
+    <color name="timer_accent">#FF3B82F6</color>
+    <color name="timer_surface">#FF1A1F26</color>
+    <color name="timer_surface_stroke">#FF2E3742</color>
+    <color name="timer_text_muted">#FF9AA4B2</color>
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">HabitFlow</string>
+    <string name="history_summary">%1$s\nCurrent streak: %2$s  •  Best streak: %3$s</string>
+    <string name="history_title">%1$s - History</string>
+    <string name="history_day_completed">✓ Completed on %1$s</string>
+    <string name="history_day_not_completed">✗ Not completed on %1$s</string>
+    <string name="habit_no_completions">No completions yet</string>
+    <string name="habit_row_stats">%1$s  •  %2$s streak</string>
+    <string name="habit_row_stats_no_streak">%1$s  •  no streak</string>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="streak_days_compact">
+        <item quantity="one">%d-day</item>
+        <item quantity="other">%d-day</item>
+    </plurals>
+
+    <!-- Pomodoro timer -->
+    <string name="pomodoro_classic">Pomodoro classic</string>
+    <string name="pomodoro_focus_chip">Focus · 25m</string>
+    <string name="pomodoro_break_chip">Break · 5m</string>
+    <string name="pomodoro_focus">Focus</string>
+    <string name="pomodoro_break">Break</string>
+    <string name="pomodoro_default_time">25:00</string>
+    <string name="pomodoro_ready">Tap play to start</string>
+    <string name="pomodoro_running">In progress</string>
+    <string name="pomodoro_paused">Paused</string>
+    <string name="pomodoro_focus_done">Focus complete — break ready</string>
+    <string name="pomodoro_break_done">Break complete — focus ready</string>
+    <string name="pomodoro_reset">Reset timer</string>
+    <string name="pomodoro_start">Start timer</string>
+    <string name="pomodoro_pause">Pause timer</string>
+    <string name="pomodoro_skip">Skip to next session</string>
+    <string name="pomodoro_channel_name">Pomodoro alerts</string>
+    <string name="pomodoro_channel_description">Alerts when a focus or break session ends.</string>
+    <string name="pomodoro_focus_finished_title">Focus session complete</string>
+    <string name="pomodoro_focus_finished_text">Nice work. Your break is ready.</string>
+    <string name="pomodoro_break_finished_title">Break is over</string>
+    <string name="pomodoro_break_finished_text">Ready for another focus block?</string>
+
+    <!-- Focus time record -->
+    <string name="focus_card_title">Focus time</string>
+    <string name="focus_card_today">Today</string>
+    <string name="focus_card_week">7 days</string>
+    <string name="focus_card_total">All time</string>
+    <string name="focus_zero">0 min</string>
+    <plurals name="days_completed">
+        <item quantity="one">%d day completed</item>
+        <item quantity="other">%d days completed</item>
+    </plurals>
+    <plurals name="streak_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+</resources>

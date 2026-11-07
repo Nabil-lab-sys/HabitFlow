@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/historyRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="0dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:text="← Back"
+        android:textAllCaps="false"
+        android:textColor="@color/title_color" />
+
+    <TextView
+        android:id="@+id/historyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Habit History"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/historySummaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Completion Calendar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_color" />
+
+    <CalendarView
+        android:id="@+id/historyCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_card_bg"
+        android:elevation="1dp" />
+
+    <TextView
+        android:id="@+id/historyInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary" />
+
+</LinearLayout>
